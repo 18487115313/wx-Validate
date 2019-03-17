@@ -1,0 +1,19 @@
+<form bindsubmit="formSubmit">
+
+  <view class="section">
+  <input name="CityID" placeholder="测试输入"></input>
+</view>
+  <view class="section">
+  <input name="Name" placeholder="测试输入"></input>
+</view>
+  <view class="section">
+  <input name="Year" placeholder="测试输入日期"></input>
+</view>
+  <view class="section">
+  <input name="FrName" placeholder="测试输入"></input>
+</view>
+  <view class="section">
+  <input name="FrTel" maxlength="11" type ='number'  placeholder="测试输入电话号码"></input>
+</view>
+   <button style='width:50%;background-color:#52b8f5;color:white;' formType="submit">保存</button>
+</form>
